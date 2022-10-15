@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Loyalty.Azure.QueryAPI" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="QueryAPI_InstanceCount" Value="-1" />
+    <!--<Parameter Name="LoyaltyDBConnectionString" Value="data source=crm-usw-qa-sql.database.windows.net;initial catalog=Loyalty;persist security info=True;user id=sqlguy;password=Herb1234;MultipleActiveResultSets=True;App=EntityFramework" />
+    <Parameter Name="UseEncryption" Value="false" />-->
+    <Parameter Name="UrlCatalogService" Value="http://usslcprodwcfv.hrbl.net/Service/Catalog/api/Product/V1/{0}"/>
+    <!--Prod connection String-->
+    <Parameter Name="LoyaltyDBConnectionString" Value="MIIDwAYJKoZIhvcNAQcDoIIDsTCCA60CAQAxggF0MIIBcAIBADBYMEQxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1HZW9UcnVzdCBJbmMuMR0wGwYDVQQDExRHZW9UcnVzdCBTU0wgQ0EgLSBHMwIQDpgVhg1KTKRlF5eLfQqo0zANBgkqhkiG9w0BAQcwAASCAQCtVij6OZtjgg8USA3nVx1oOD/m9MlgQhP6AXjjOoIdA/LMosrSJKFEXB0WDoLJyg3G0Wa5pPd/9piAQxLq9iYuIxaPlrjStfHJ0keOhVU5RgGk9grl/S/6QpT/0tpaRQ4GBdwm2esT2GZh7XslqFfKUeudvTbj+BX2pPyXMi+beqrtOGN5U3kfotTkzZrhHMt2gOIL2HL59BD2MQD/K3w77BuSQrKBf7WF2wZj5YGKmNlGYhw/y0vMcjPR/xaId8IUSwugDXbwd4aKMywwO2L5b0ygHRA8wQzp13mvqINPeCz2f2N0UBVNEE8N/9u9T4czI8uR/ulv7VXqoe7GTpuEMIICLgYJKoZIhvcNAQcBMB0GCWCGSAFlAwQBKgQQaEsxMOXrtdEW0U4rlzDajYCCAgCK62vqudinFmB3/cf+ATGHoZvR5QNV4Qk2hdn30jfrKQoyZCNvO5E4zDOSzbrVEb8jAVC+OddTYwpaZkNLUFRNU6lBvVkftbcqV3rEcWq8yu9QIuMVKEok+m/f+sbANEN0CqAQtEYfB0f3YkI9iBCepM3dRj55wIywuEeR6O8aAdcJHQKCziiITwvWMqsvX5GKUCgp42IFkIt1IYxuMFGyVRQrRRSbV/96I8eUxVPTgvRRmyo2BiwWu5BIbvT8DFTydBinnAHJp2qMdITWUj+gF37oPdygmr1gJIN7XBG594ethW546rqflGtoqfiSs0O8DBX6THqfouFnAr5bVQyIwRSvyEKGkWFx3UViOGUfaj73LmjCL9DL7CSqL/hNL9iHusVvj4UGF0lipKckIxRErNY3TWR8TrAnaD7G174XAazN5BO7roSZVf91CMvVTf6++jC6tkrnqXgJmIxcjaImBPv/DLYsLS4iypvlhALXHkhBlGbtDxqTbpTchTCAf21SeoLK+QsccgtUfTMOl+Yv0++yHvplJxmvXNJW+pZlXnUK14e9SnZkTuq2E6XD+Kty96gRJluhpSD1DiM7JzZ9vaC3bxDkamKMk9Wptem/W38areZue+YgwXGSvwZNQEzm6loF5wk0lCIn29op+NslHlGlRYnYbJ10o3yrj07fZw==" />
+    <Parameter Name="UseEncryption" Value="true" />
+  </Parameters>
+</Application> 

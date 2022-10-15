@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Loyalty.Azure.QueryAPI", "Loyalty.Azure.QueryAPI\Loyalty.Azure.QueryAPI.sfproj", "{F5A52675-97C0-4A3E-875A-55BE63B17BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loyalty.QueryAPI", "Loyalty.QueryAPI\Loyalty.QueryAPI.csproj", "{44089ED1-A7E3-4206-87A2-9966B0A6AA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.Providers.QueryAPI", "HL.Loyalty.Providers.QueryAPI\HL.Loyalty.Providers.QueryAPI.csproj", "{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.QueryAPI.Test", "HL.Loyalty.QueryAPI.Test\HL.Loyalty.QueryAPI.Test.csproj", "{4E374B3E-64C4-4CDE-8B67-00905AD119CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1173A495-4050-4A4E-955B-7126525947FE}"
+	ProjectSection(SolutionItems) = preProject
+		HL.Loyalty.QueryApi.Tests.testsettings = HL.Loyalty.QueryApi.Tests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.Repository.QueryAPI", "HL.Loyalty.Repository.QueryAPI\HL.Loyalty.Repository.QueryAPI.csproj", "{11038EA8-DF5C-4219-A57E-C93386B809DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.Common.QueryAPI", "HL.Loyalty.Common.QueryAPI\HL.Loyalty.Common.QueryAPI.csproj", "{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Debug|Any CPU.Build.0 = Debug|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Debug|x64.ActiveCfg = Debug|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Debug|x64.Build.0 = Debug|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Debug|x64.Deploy.0 = Debug|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Release|Any CPU.ActiveCfg = Release|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Release|Any CPU.Build.0 = Release|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Release|x64.ActiveCfg = Release|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Release|x64.Build.0 = Release|x64
+		{F5A52675-97C0-4A3E-875A-55BE63B17BAE}.Release|x64.Deploy.0 = Release|x64
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Debug|x64.ActiveCfg = Debug|x64
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Debug|x64.Build.0 = Debug|x64
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Release|x64.ActiveCfg = Release|x64
+		{44089ED1-A7E3-4206-87A2-9966B0A6AA46}.Release|x64.Build.0 = Release|x64
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Debug|x64.Build.0 = Debug|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Release|x64.ActiveCfg = Release|x64
+		{4819CD86-F9D8-4EEB-B117-D2B18CBFAA49}.Release|x64.Build.0 = Release|x64
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E374B3E-64C4-4CDE-8B67-00905AD119CF}.Release|x64.Build.0 = Release|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Release|x64.ActiveCfg = Release|x64
+		{11038EA8-DF5C-4219-A57E-C93386B809DD}.Release|x64.Build.0 = Release|x64
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Debug|x64.Build.0 = Debug|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Release|x64.ActiveCfg = Release|x64
+		{7E590C17-45FC-4890-A4F6-BAC41D70CD4E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/enterpriseapplications
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HL.Loyalty.Providers.QueryAPI\\HL.Loyalty.Providers.QueryAPI.csproj
+		SccProjectName1 = HL.Loyalty.Providers.QueryAPI
+		SccLocalPath1 = HL.Loyalty.Providers.QueryAPI
+		SccProjectUniqueName2 = Loyalty.QueryAPI\\Loyalty.QueryAPI.csproj
+		SccProjectName2 = Loyalty.QueryAPI
+		SccLocalPath2 = Loyalty.QueryAPI
+		SccProjectUniqueName3 = HL.Loyalty.QueryAPI.Test\\HL.Loyalty.QueryAPI.Test.csproj
+		SccProjectName3 = HL.Loyalty.QueryAPI.Test
+		SccLocalPath3 = HL.Loyalty.QueryAPI.Test
+		SccProjectUniqueName4 = HL.Loyalty.Repository.QueryAPI\\HL.Loyalty.Repository.QueryAPI.csproj
+		SccProjectName4 = HL.Loyalty.Repository.QueryAPI
+		SccLocalPath4 = HL.Loyalty.Repository.QueryAPI
+		SccProjectUniqueName5 = HL.Loyalty.Common.QueryAPI\\HL.Loyalty.Common.QueryAPI.csproj
+		SccProjectName5 = HL.Loyalty.Common.QueryAPI
+		SccLocalPath5 = HL.Loyalty.Common.QueryAPI
+		SccProjectUniqueName6 = Loyalty.Azure.QueryAPI\\Loyalty.Azure.QueryAPI.sfproj
+		SccProjectName6 = Loyalty.Azure.QueryAPI
+		SccLocalPath6 = Loyalty.Azure.QueryAPI
+	EndGlobalSection
+EndGlobal
